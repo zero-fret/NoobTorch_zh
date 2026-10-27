@@ -1,0 +1,7 @@
+# 安装：pip install -r requirements.txt
+# torch / torchvision：根据你的 GPU 从 https://pytorch.org/get-started/locally/ 选择 CUDA 版本
+torch
+torchvision
+numpy
+matplotlib
+opencv-python
