@@ -23,7 +23,7 @@ out = ReLU( W2·ReLU(W1·x) + x )
 - **强数据增强**：RandAugment（2 个随机操作）+ 水平翻转 + 填充裁剪 + RandomErasing。
 
 ## 与第 05 课的区别
-新的块结构（跳跃连接）；其他一切——BatchNorm、增强、调度器、fit 循环——都复用。
+新的块结构（短路连接）；其他一切——BatchNorm、增强、调度器、fit 循环——都复用。
 
 ## 运行
 ```
